@@ -264,6 +264,10 @@ span{
 }
 .small-images{
     padding-top: 30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 
 }
 .small-images img{
