@@ -2,7 +2,7 @@ let humburger=document.querySelector(".humburger");
 let links=document.querySelector(".links");
 
 humburger.addEventListener("click",()=>{
-    links.classList.toggle("links-active")
+    links.classList.toggle("links-active");
 });
 
 
@@ -16,3 +16,9 @@ smallImages.forEach(img=>{
 });
 
 
+let li=document.querySelectorAll(".links li a");
+li.forEach(li=>{
+    li.addEventListener("click",()=>{
+        links.classList.toggle("links-active")
+    })
+})
